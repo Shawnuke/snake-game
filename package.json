@@ -1,0 +1,19 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": 
+  {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "stylus -w ./src/style.styl -o ./dist/style.css",
+    "prebuild": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": 
+  {
+    "stylus": "^0.54.7",
+    "typescript": "^3.9.3"
+  }
+}
